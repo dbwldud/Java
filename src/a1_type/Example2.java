@@ -12,7 +12,7 @@ public class Example2 {
         double f = 3.144372894732; // 뒤에 d 또는 D을 명시적으로 붙이기도 한다.
         // 문자형
         char g = 'A';
-        string h = "안녕하세요"; // 참조자료형 (char를 여러개 모아논 형태)
+        String h = "안녕하세요"; // 참조자료형 (char를 여러개 모아논 형태)
         // 불리언형
         boolean i = false;
 

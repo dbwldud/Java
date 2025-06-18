@@ -1,7 +1,7 @@
 package a1_type;
 
 public class Example1 {
-    public static void main(string[] args) {
+    public static void main(String[] args) {
         // byte타입의 크기(1바이트)만큼 메모리를 할당받고 그 주소를 a라고 부르고
         // a 위치에 숫자 1을 저장한다.
         byte a = 1;
@@ -33,8 +33,8 @@ public class Example1 {
         String name = "Steve"; // 문자열은 String으로 생성한다.
         System.out.println(name); // steve
         System.out.println(name.length()); // 5
-        string str1 = "한글";
-        System.out.println(str1.lengsh()); // 2
+        String str1 = "한글";
+        System.out.println(str1.length()); // 2
 
         boolean bool = true; // true는 참을 의미하는 예약어(키워드). 숫자로는 1
         System.out.println(bool); // true
