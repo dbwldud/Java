@@ -57,5 +57,16 @@ public class LogicalOperator {
         // 0000 0111 = 키
         // ---------------
         // 0100 0001 = 'A' 복호화 성공
+
+        // 중요!!!
+        // 쇼트서킷 (Short Circuit)
+        // AND와 OR 논리연산자에 사용됨 (비트연산자에는 적용X)
+        // AND의 경우,
+        // 첫번째 조건이 false면 두번째 조건은 실행하지 않음 => 결과는 무조건 false
+        // OR의 경우,
+        // 첫번째 조건이 true면 두번째 조건은 실행X => 결과는 무조건 true
+        int value1 = 3;
+        System.out.println(false && ++value1 > 6);
+        // 두번째 조건 ++value1 > 6 를 계산할 필요 없음, 결과는 무조건 false
     }
 }
