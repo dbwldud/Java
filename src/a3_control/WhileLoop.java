@@ -41,22 +41,3 @@ public class WhileLoop {
         }while (a > 1);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
