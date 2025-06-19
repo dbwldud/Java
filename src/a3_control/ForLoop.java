@@ -6,9 +6,9 @@ public class ForLoop {
         // 반복 제어문
         // For
         // 기본형태
-        //         for (초기식; 조건식; 증감식) {
-        //              실행구문
-        //         }
+        //        for (초기식; 조건식; 증감식) {
+        //             실행구문
+        //        }
         for (int i = 0; i < 10; i++) {
             System.out.print(i);
         }
