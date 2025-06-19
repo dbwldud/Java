@@ -51,31 +51,31 @@ public class Ch4_Example {
         }
 
         // Q5
-        for (int i=0; i<5; i++) {
-            for (int j=0; j<3; j++) {
-                if (i == 2) {
-                    continue;
-                }
-                if (j == 1) {
-                    break;
-                }
-                System.out.println("A");
-            }
-        }
+//        for (int i=0; i<5; i++) {
+//            for (int j=0; j<3; j++) {
+//                if (i == 2) {
+//                    continue;
+//                }
+//                if (j == 1) {
+//                    break;
+//                }
+//                System.out.println("A");
+//            }
+//        }
 
         // Q6
-        for (int i=0; i<10; i++) {
-            for (int j=0; j<5; j++) {
-                if (i == 3 && j == 2) {
-                    i = 999;
-                    break;
-                }
-            }
-        }
+//        for (int i=0; i<10; i++) {
+//            for (int j=0; j<5; j++) {
+//                if (i == 3 && j == 2) {
+//                    i = 999;
+//                    break;
+//                }
+//            }
+//        }
 
         // Q7 레이블
         out:
-        for (int i=0; i<10; i++) {
+        for (int i1=0; i<10; i++) {
             for (int j=0; j<5; j++) {
                 if (i == 3 && j == 2) {
                     break out;
