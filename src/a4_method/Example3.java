@@ -8,7 +8,7 @@ public class Example3 {
         System.out.println(square(15)); // 15
     }
     public static int square(int num) {
-        // 코드를 작성하여 매개변수의 제곱을 반환
+        // 코드를 작성하여 매개변수의 제곱을 반환하시오.
         return 0;
     }
 }
