@@ -9,7 +9,7 @@ public class Method2 {
         int a = 3;
         int b = 5;
         int c = 10;
-        int value = plus(3, 5);// 함수의 계산결과를 변수에 저장함
+        int value = plus(a, b);// 함수의 계산결과를 변수에 저장함
         multiply(value, c); // 저장한 계산결과를 다른 함수가 이용할 수 있음
     }
 

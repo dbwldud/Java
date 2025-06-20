@@ -3,6 +3,7 @@ package a4_method;
 public class Method1 {
     public static void main(String[] args) {
         // 문자열에서 특정 문자의 위치를 찾는 코드
+        // 함수 == function == method ==> 독립적인 일
         String name = "steve";
         char ch = 'x';
         findCharacter(name, ch); // 함수 : 문장안에서 특정 문자를 찾는 함수
