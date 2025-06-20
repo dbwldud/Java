@@ -14,7 +14,7 @@ public class ForLoopPattern {
         System.out.println("총합은 = " + sum);
         System.out.println();
 
-        // 2. count : 반복문에ㅔ서 특정조건에 맞는 경우의 세는 변수 사용
+        // 2. count : 반복문에서 특정조건에 맞는 경우의 세는 변수 사용
         // 짝수의 갯수를 세는 코드
         int count = 0;
         for (int i=0; i<10; i++) {
