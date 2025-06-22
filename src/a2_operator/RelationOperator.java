@@ -2,7 +2,7 @@ package a2_operator;
 
 public class RelationOperator {
     public static void main(String[] args) {
-        // 비교연산자 (<, >, <=ㅡ >=, ==, !=)
+        // 비교연산자 (<, >, <=, >=, ==, !=)
         // 비교연산자의 특징
         // 반드시 그 결과가 참 또는 거짓으로 나오는 연산자
         System.out.println(5 < 2); // false
