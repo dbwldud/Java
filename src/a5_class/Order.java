@@ -20,7 +20,7 @@ public class Order {
         this.orderDate = orderDate;
         this.totalAmount = totalAmount;
     }
-    
+
     // 메서드
     // 주문수량 입력
     public double setTotalAmount(double newAmount) {
