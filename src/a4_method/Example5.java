@@ -10,5 +10,15 @@ public class Example5 {
         int first = scanner.nextInt();
         System.out.println("두번째 숫자를 입력해주세요.");
         int second = scanner.nextInt();
+        //System.out.println(first + " " + second);
+        int max = getMax(first, second);
+        System.out.println(max);
+    }
+    public static int getMax(int first, int second) {
+        if (first >= second) {
+            return first;
+        }else {
+            return second;
+        }
     }
 }
