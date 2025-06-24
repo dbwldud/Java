@@ -56,7 +56,7 @@ public class MyClass {
         System.out.println(order1.product.stock); // 70
 
         /* 중요!!
-        주문클래스의 필드인 주문자와 주문제품은 User와 Product클래스에
+        주문클래스의 필드인 주문자와 주문제품은 User와 Product 클래스에
         강한 의존성을 가지고 있음.
         주문자와 주문제품은 반드시 User 클래스와 Product 클래스의 객체여야 함.
         이런 관계를 가지고 있는 필드의 경우에는 클래스객체 자체를 필드로 가지도록
