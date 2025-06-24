@@ -66,6 +66,12 @@ public class MyClass {
         Product product; // 주문제품
         }
          */
+
+        // 지역변수의 초기화
+        int a; // main 메서드의 지역변수 a
+        // System.out.println(a); // 에러. 스택변수는 초기화해야만 읽을 수 있음
+        a = 10;
+        System.out.println(a); // 10
     }
 }
 
