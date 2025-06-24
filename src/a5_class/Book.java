@@ -11,4 +11,23 @@ public class Book {
     printBookInfo()
     "제목 by 저자, 가격원" - 해리포터 by J.K.롤링, 14000원
      */
+    String title; // 제목
+    String author; // 저자
+    double price; // 가격
+
+    public Book() {
+    }
+
+    public Book(String title, double price, String author) {
+        this.title = title;
+        this.price = price;
+        this.author = author;
+    }
+
+    // 해리포터 by J.K.롤링, 14000원
+    public String printBookInfo() {
+        String str = this.title + " by " + this.author +
+                ", " + this.price + "원";
+        return str;
+    }
 }
