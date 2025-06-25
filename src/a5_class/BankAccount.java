@@ -47,5 +47,4 @@ public class BankAccount {
     public String toString() {
         return accountNumber + " " + ownerName + " " + balance;
     }
-    }
-
+}
