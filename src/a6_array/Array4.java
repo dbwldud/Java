@@ -1,5 +1,7 @@
 package a6_array;
 
+import a5_class.Student;
+
 public class Array4 {
     public static void main(String[] args) {
         // 반복문을 사용한 배열의 순회
@@ -22,6 +24,12 @@ public class Array4 {
         for (String data : colors) {
             System.out.println(data);
         }
-        
+        Student[] students = new Student[3];
+        students[0] = new Student("steve",25,"대전","남",100,100,100);
+        students[1] = new Student("tom",21,"서울","남",90,80,70);
+        students[2] = new Student("Laura",20,"부산","여",100,90,80);
+        for (Student data : students) {
+            System.out.println(data);
+        }
     }
 }
