@@ -1,7 +1,7 @@
 package a6_array;
 
 public class MyClass {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         Rectangle r = new Rectangle(2,3);
         double area = r.getArea();
         System.out.println("면적은 " + area); // 6

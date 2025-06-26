@@ -3,7 +3,7 @@ package a6_array;
 import a5_class.Student;
 
 public class Array4 {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // 반복문을 사용한 배열의 순회
 
         // 배열의 길이
@@ -20,8 +20,8 @@ public class Array4 {
         }
 
         // 연습예제
-        String[] colors = {"black","white","blue","red","green"};
-        for (String data : colors) {
+        String1[] colors = {"black","white","blue","red","green"};
+        for (String1 data : colors) {
             System.out.println(data);
         }
         Student[] students = new Student[3];

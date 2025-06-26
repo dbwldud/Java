@@ -1,7 +1,7 @@
 package a6_array;
 
 public class Array3 {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         // 참조자료형의 값 복사의 특성
         int a = 4;
         int b = a;

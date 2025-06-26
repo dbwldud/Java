@@ -1,7 +1,7 @@
 package a6_array;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         A a = new A();
         int[] data1 = new int[] {1, 2, 3};
         int[] data2 = {1, 2, 3};
