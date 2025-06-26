@@ -41,7 +41,7 @@ public class Array1 {
         // double num = 0.0 (float, double, 모두 0.0)
 
         // 모든 자료형을 배열로 만들 수 있음(참조자료형 포함)
-        String1[] array3 = new String1[10];
+        String[] array3 = new String[10];
         Student[] students = new Student[5]; // Student 객체 100개를 생성
         array3[0] = "첫번째";
         array3[1] = "두번째";

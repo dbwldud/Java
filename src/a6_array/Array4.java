@@ -20,8 +20,8 @@ public class Array4 {
         }
 
         // 연습예제
-        String1[] colors = {"black","white","blue","red","green"};
-        for (String1 data : colors) {
+        String[] colors = {"black","white","blue","red","green"};
+        for (String data : colors) {
             System.out.println(data);
         }
         Student[] students = new Student[3];
