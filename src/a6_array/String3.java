@@ -66,11 +66,11 @@ public class String3 {
         String str2 = new String("Java");
         String str3 = new String("Java");
         String str4 = new String("java");
-        System.out.println(str2 == str3);
-        System.out.println(str3 == str4);
-        System.out.println(str2.equals(str3)); //
-        System.out.println(str3.equals(str4)); //
-        System.out.println(str3.equalsIgnoreCase(str4)); //
+        System.out.println(str2 == str3); // false
+        System.out.println(str3 == str4); // false
+        System.out.println(str2.equals(str3)); // true
+        System.out.println(str3.equals(str4)); //false
+        System.out.println(str3.equalsIgnoreCase(str4)); // true
     }
 }
 
