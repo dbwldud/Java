@@ -1,7 +1,7 @@
 package a6_array;
 
 public class Example1 {
-    public static void main(String1[] args) {
+    public static void main(String[] args) {
         // 배열연습 1
         // 랜덤한 정수 10개를 가진 배열에서 특정 값을 찾고 그 위치 인덱스 값을
         // 리턴하는 메서드. 만약 못찾으면 -1 리턴
