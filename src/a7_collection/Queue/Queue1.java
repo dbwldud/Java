@@ -40,10 +40,15 @@ public class Queue1 {
         q2.offer(3);
         q2.offer(4);
         q2.offer(5);
-        // #5. peek 읽기
+        // #5. peek 읽기 (빈 큐를 읽어도 에러 발생하지 않음)
         System.out.println("#5");
         System.out.println(q2.peek()); // 3
         // #6. poll 꺼내면서 삭제 (큐가 다 비워져도 에러 발생하지 않음)
         System.out.println("#6");
+        System.out.println(q2.poll()); // 3
+        System.out.println(q2.poll()); // 4
+        System.out.println(q2.poll()); // 5
+        System.out.println(q2.poll()); // null
     }
 }
+
