@@ -1,5 +1,7 @@
 package a8_modifier.Modifier1.pack2;
 
+import a8_modifier.Modifier1.pack1.A;
+
 public class D extends A {
     public void print() {
         System.out.print(a + " ");
