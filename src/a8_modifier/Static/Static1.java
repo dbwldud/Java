@@ -21,6 +21,6 @@ public class Static1 {
         System.out.println(A.n); // 6
 
         A a2 = new A();
-        System.out.println(a2.n); // ?
+        System.out.println(a2.n); // 
     }
 }
