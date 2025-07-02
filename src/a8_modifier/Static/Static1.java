@@ -17,7 +17,10 @@ public class Static1 {
 
         // 정적필드 수정
         A.n = 6;
-        System.out.println(a1.n); //
-        System.out.println(A.n); // 
+        System.out.println(a1.n); // 6
+        System.out.println(A.n); // 6
+
+        A a2 = new A();
+        System.out.println(a2.n); // ?
     }
 }
