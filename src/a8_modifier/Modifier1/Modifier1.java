@@ -6,12 +6,6 @@ import a8_modifier.Modifier1.pack2.C;
 import a8_modifier.Modifier1.pack2.D;
 
 public class Modifier1 {
-    // A클래스의 필드 접근 예제
-    // 클래스의 필드에는 4가지 접근지정자를 사용 가능
-    // public
-    // protected
-    // 지정안함 (=default 접근 지정자는 직접 코드로 명시X)
-    // private
     public static void main(String[] args) {
         A a = new A();
         a.print(); // 1 2 3 4
