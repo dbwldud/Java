@@ -4,6 +4,9 @@ package a10_interface_abstract.Interface;
 // 추상클래스대신 인터페이스를 활용한 예제
 public interface Operation {
     int calculate(int a, int b);
+    default void print(){
+        System.out.println("화면출력");
+    }
 }
 class Add implements Operation {
     @Override
