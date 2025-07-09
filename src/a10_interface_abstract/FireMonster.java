@@ -8,5 +8,5 @@ public class FireMonster {
     Parameter hp;
     Parameter attack;
     Parameter defense;
-    
+
 }
