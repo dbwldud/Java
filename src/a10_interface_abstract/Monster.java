@@ -2,7 +2,12 @@ package a10_interface_abstract;
 
 import a8_modifier.Modifier1.pack1.A;
 
-public class Monster {
+import java.lang.reflect.Parameter;
+
+public class Monster  {
+    int attack(Monster target) {
+        return 0;
+    }
 
     private String name;
     private int hp;
@@ -16,6 +21,12 @@ public class Monster {
         this.hp = hp;
         this.maxhp = hp;
         this.name = name;
+    }
+
+    public Monster(Parameter name, Parameter hp, Parameter attack, Parameter defense, Parameter fireSkillDamage) {
+    }
+
+    public Monster(String 이프리트, int i, int i1, int i2, int i3) {
     }
 
     public String getName() {

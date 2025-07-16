@@ -73,5 +73,12 @@ public class GameManager {
         if (second.getHp() > 0)
             second.info();
         else first.info();
+
+        // Math.random()은 0.0 이상 1.0 미만의 실수를 반환합니다.
+        // 따라서 if (Math.random() < 0.2) 코드는 20% 확률로 true가 됩니다.
+
+        if (Math.random() < 0.2) {
+            // 20% 확률로 실행될 코드
+        }
     }
 }
