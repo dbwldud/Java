@@ -44,7 +44,7 @@ public class GameManager {
         while (first.getHp() > 0 && second.getHp() > 0) {
             System.out.println("n==== 턴 " + turn + " ====");
 
-            int damageToSlime = Math.max(0, second.getAttack() - first.getDefense());
+            int damageToSlime = Math.max(0, second.getAttack() - first.getDefense(18));
             first.setHp(Math.max(first.getHp() - damageToSlime, 0));
             System.out.println(second.getName() + "이(가) " + first.getName() + "을(를) 공격! 피해: " + damageToSlime + ", 남은 HP: " + first.getHp());
 
@@ -52,7 +52,7 @@ public class GameManager {
             if (first.getHp() <= 0)
                 break;
 
-            int damageToOrc = Math.max(0, first.getAttack() - second.getDefense());
+            int damageToOrc = Math.max(0, first.getAttack() - second.getDefense(18));
             second.setHp(Math.max(second.getHp() - damageToOrc, 0));
             System.out.println(first.getName() + "이(가) " + second.getName() + "을(를) 공격! 피해: " + damageToOrc + ", 남은 HP: " + second.getHp());
 

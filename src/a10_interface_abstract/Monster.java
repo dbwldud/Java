@@ -1,7 +1,5 @@
 package a10_interface_abstract;
 
-import a8_modifier.Modifier1.pack1.A;
-
 import java.lang.reflect.Parameter;
 
 public class Monster  {
@@ -61,7 +59,7 @@ public class Monster  {
         this.attack = attack;
     }
 
-    public int getDefense() {
+    public int getDefense(int i) {
         return defense;
     }
 

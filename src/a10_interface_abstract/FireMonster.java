@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FireMonster extends Monster {
-    Parameter fireSkillDamage;
-    Parameter name;
-    Parameter hp;
-    Parameter attack;
-    Parameter defense;
+    int fireSkillDamage;
+    String name;
+    int hp;
+    int attack;
+    int defense;
 
     @Override
     public int attack(Monster target) {
@@ -19,16 +19,18 @@ public class FireMonster extends Monster {
         // 따라서 스킬은 이제 공격을 대체하는 것이 아닌, 강력한 '추가타' 개념이 됩니다.
         // 최종 계산된 피해량을 반환합니다.
         int damage = Math.max(this.getAttack() -
-                target.getDefense(), 0);
+                target.getDefense(18), 0);
+
         if (Math.random() < 0.35) {
             System.out.println("화염공격 !!");
             damage += fireSkillDamage;
         }
+
         return damage;
     }
 
-    public FireMonster(Parameter name, Parameter hp,
-                       Parameter attack, Parameter defense, Parameter fireSkillDamage) {
+    public FireMonster(String name, int hp,
+                       int attack, int defense, int fireSkillDamage) {
         super(name, hp, attack, defense, fireSkillDamage);
         this.name = name;
         this.hp = hp;

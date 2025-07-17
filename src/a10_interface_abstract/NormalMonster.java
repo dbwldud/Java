@@ -2,19 +2,17 @@ package a10_interface_abstract;
 
 import java.lang.reflect.Parameter;
 
-public class normalMonster extends Monster {
-    public normalMonster(String 이프리트, int i, int i1, int i2, int i3) {
+public class NormalMonster extends Monster {
+    public NormalMonster(String 이프리트, int i, int i1, int i2, int i3) {
         super(이프리트, i, i1, i2, i3);
     }
 
-    public normalMonster(Parameter name, Parameter hp, Parameter attack, Parameter defense, Parameter fireSkillDamage) {
+    public NormalMonster(Parameter name, Parameter hp, Parameter attack, Parameter defense, Parameter fireSkillDamage) {
         super(name, hp, attack, defense, fireSkillDamage);
     }
 
-    public normalMonster(int defense, int attack, int hp, String name) {
+    public NormalMonster(int defense, int attack, int hp, String name) {
         super(defense, attack, hp, name);
-    }
-
     }
 
     public int attack(Monster target) {
@@ -26,12 +24,16 @@ public class normalMonster extends Monster {
             int damage = 0;
             if (Math.random() < 0.20) {
                 System.out.println("치명타공격!! 방어도무시");
-                damage = this.attack() * 2;
+                damage = this.attack(getattack(28)) * 2;
             }else {
-                damage = Math.max(this.attack() -
-                        target.getDefense(), 0);
+                damage = Math.max(this.attack(getattack(22)) -
+                        target.getDefense(18), 0);
             }
         return damage;
     }
 
+    private Monster getattack(int i) {
 
+        return null;
+    }
+}
