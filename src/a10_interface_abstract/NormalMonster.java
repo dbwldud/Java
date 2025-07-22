@@ -2,7 +2,7 @@ package a10_interface_abstract;
 
 import java.lang.reflect.Parameter;
 
-public class NormalMonster extends Monster {
+public class NormalMonster<M> extends Monster {
     public NormalMonster(String 이프리트, int i, int i1, int i2, int i3) {
         super(이프리트, i, i1, i2, i3);
     }

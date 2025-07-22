@@ -3,6 +3,9 @@ package a10_interface_abstract;
 import java.lang.reflect.Parameter;
 
 public class Monster  {
+    public Monster(String 이프리트, int i, int i1, int i2, int i3) {
+    }
+
     int attack(Monster target) {
         return 0;
     }
@@ -21,10 +24,10 @@ public class Monster  {
         this.name = name;
     }
 
-    public Monster(Parameter name, Parameter hp, Parameter attack, Parameter defense, Parameter fireSkillDamage) {
+    public Monster(int name, int hp, int attack, int defense, String fireSkillDamage) {
     }
 
-    public Monster(String 이프리트, int i, int i1, int i2, int i3) {
+    public Monster(Parameter 이프리트, Parameter i, Parameter i1, Parameter i2, Parameter i3) {
     }
 
     public String getName() {
@@ -35,8 +38,11 @@ public class Monster  {
         this.name = name;
     }
 
-    public int getHp() {
-        return hp;
+    public static int getHp() {
+        return getHp();
+    }
+
+    private static void gethp() {
     }
 
     public void setHp(int hp) {

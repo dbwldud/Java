@@ -1,6 +1,5 @@
 package a10_interface_abstract;
 
-import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.List;
 

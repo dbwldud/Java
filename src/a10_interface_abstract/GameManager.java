@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GameManager {
-    public static void main(String[] args) {
+    public static <monsters> void main(String[] args) {
 //        Monster slime = new Monster(3, 8, 30, "슬라임");
 //        Monster orc = new Monster(5, 12, 40, "오크");
 //        Monster goblin = new Monster(4, 12, 50, "고블린");
@@ -22,12 +22,13 @@ public class GameManager {
         monsters.add(new Monster(5, 12, 40, "오크"));
         monsters.add(new Monster(4, 12, 50, "고블린"));
         monsters.add(new Monster(10, 14, 60, "스켈레톤"));
-        monsters.add(new Monster(6, 18, 120, "트롤"));
         monsters.add(new Monster(25, 20, 100, "골렘"));
         monsters.add(new Monster(15, 25, 150, "와이번"));
         monsters.add(new Monster(12, 35, 130, "리치"));
         monsters.add(new Monster(20, 30, 200, "키메라"));
         monsters.add(new Monster(30, 40, 300, "드래곤"));
+        monsters.add(new Monster(6, 18, 120, "트롤"));
+        monsters.add(new Monster(90, 28, 10, 25, "헬하운드"));
 
         for (int i = 0; i <= 9; i++) {
             System.out.println(i + " : " + monsters.get(i).getName());
@@ -79,6 +80,12 @@ public class GameManager {
 
         if (Math.random() < 0.2) {
             // 20% 확률로 실행될 코드
+        }
+
+        while (Troll.getHp() > 0 && Hellhound.getHp() > 0) {
+            System.out.println("n==== 턴 " + turn + "====");
+
+
         }
     }
 }
